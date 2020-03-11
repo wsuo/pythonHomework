@@ -17,5 +17,5 @@ M OP N
 注意：M和OP，OP和N之间可以有多个空格，不考虑输入错误的情况。
 '''
 
-#print("运算结果为:{:.2f}".format(eval(input("请输入:"))))
-print("运算结果为:%.2f"%eval(input("请输入:")))
+# print("运算结果为:{:.2f}".format(eval(input("请输入:"))))
+print("运算结果为:%.2f" % eval(input("请输入:")))

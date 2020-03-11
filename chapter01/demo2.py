@@ -12,5 +12,5 @@
 输出格式:
 在一行中输出和值。
 '''
-#print("结果为:{:d}".format(eval(input("请输入被加数:")) + eval(input("请输入加数:"))))
-print("结果为:%d"%((eval(input("请输入被加数:")) + eval(input("请输入加数:")))))
+# print("结果为:{:d}".format(eval(input("请输入被加数:")) + eval(input("请输入加数:"))))
+print("结果为:%d" % ((eval(input("请输入被加数:")) + eval(input("请输入加数:")))))
