@@ -9,9 +9,7 @@ a = int(num[0])
 n = eval(num[2])
 sum = 0;
 for i in range(n):
-    var = 1
-    for j in range(i + 1):
-        var *= a
+    var = pow(a, i + 1)
     sum += var
 
 print("s = " + str(sum))

@@ -5,8 +5,8 @@
 # @File    : demo04.py
 # @Software: PyCharm
 inp = input()
-dist = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'O', 'P',
-        'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+dist = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+        'N' 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 for i in inp:
     if i in dist:
         index = dist.index(i)
