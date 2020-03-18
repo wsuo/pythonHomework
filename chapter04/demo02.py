@@ -7,6 +7,7 @@
 '''
 随机密码生成。编写程序，在26个大、小写字母和10个数字组成的列表中随机生成1个密码，密码长度8位。
 '''
+
 import random as r
 
 n = eval(input("请输入生成密码的位数:"))
@@ -22,4 +23,4 @@ for i in range(n):
         ch += chr(low)
     else:
         ch += chr(dic)
-print(ch)
+# .append([chr(j) for j in range(97, 122)], [(chr(k)) for k in range(48, 57)])
