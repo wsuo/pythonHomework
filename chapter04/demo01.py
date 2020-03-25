@@ -4,7 +4,7 @@
 # @Email   : ws2821@yeah.net
 # @File    : demo01.py
 # @Software: PyCharm
-'''
+"""
 一个合法的身份证号码由17位地区、日期编号和顺序编号加1位校验码组成。校验码的计算规则如下：
 
 首先对前17位数字加权求和，权重分配为：{7，9，10，5，8，4，2，1，6，3，7，9，10，5，8，4，2}；
@@ -32,11 +32,11 @@ M：1 0 X 9 8 7 6 5 4 3 2
 输出样例：
 
 320124198808240056是合法身份证号
-'''
+"""
 
 
 # 运算函数
-def decide(m):
+def decide(mm):
     # sum = 0
     # 在这里定义的原因是考虑到如果程序都运行不到这一步会浪费空间
     lt = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2]
@@ -45,7 +45,7 @@ def decide(m):
     # tmp = int(m[i]) * int(lt[i])
     # sum += tmp
     # 使用列表推导式更为简单
-    mod = sum([int(m[i]) * int(lt[i]) for i in range(17)]) % 11
+    mod = sum([int(mm[i]) * int(lt[i]) for i in range(17)]) % 11
     # 取模判断
     nav = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     rev = [1, 0, 'X', 9, 8, 7, 6, 5, 4, 3, 2]
@@ -57,11 +57,11 @@ def decide(m):
 
 
 # 判断函数
-def doif(m, tFlag):
-    if tFlag:
-        print("{:s}是合法身份证号".format(m))
+def doit(men, flag1):
+    if flag1:
+        print("{:s}是合法身份证号".format(men))
     else:
-        print("{:s}不是合法身份证号".format(m))
+        print("{:s}不是合法身份证号".format(men))
 
 
 # 主函数
@@ -79,7 +79,7 @@ if len(m) == 18:
         tail = decide(m)
         if tail == int(m[-1]):
             totalFlag = True
-doif(m, totalFlag)
+doit(m, totalFlag)
 #     else:
 #         totalFlag = False
 # else:
