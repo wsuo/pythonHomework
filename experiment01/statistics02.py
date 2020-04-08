@@ -3,6 +3,7 @@
 @contact: wangsuoo@foxmail.com
 @file: statistics02.py
 @time: 2020/3/25 0025
+本项目github地址: https://github.com/wsuo/pythonHomework/tree/master/experiment01
 """
 import jieba
 
