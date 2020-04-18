@@ -4,7 +4,7 @@
 # @Email   : ws2821@yeah.net
 # @File    : demo06.py
 # @Software: PyCharm
-'''
+"""
 对于给定的正整数N，求它的位数及其各位数字之和。
 输入格式：
 输入在一行中给出正整数N。
@@ -14,6 +14,6 @@
 321
 输出样例：
 3 6
-'''
+"""
 n = input()
 print("{0:d} {1:d}".format(len(n), sum([int(i) for i in list(n)])))

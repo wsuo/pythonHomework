@@ -4,7 +4,7 @@
 # @Email   : ws2821@yeah.net
 # @File    : demo07.py
 # @Software: PyCharm
-'''
+"""
 本题要求统计给定整数M和N区间内素数的个数并对它们求和。
 输入格式:
 输入在一行中给出两个正整数M和N（1≤M≤N≤500）。
@@ -14,7 +14,7 @@
 10 31
 输出样例:
 7 143
-'''
+"""
 # lt = [i for i in range(int(m), int(n) + 1) for j in range(2, i) if i % j != 0]
 # lt = [i for i in range(int(m), int(n) + 1) for j in range(1, i) if int(i) / int(j) == 0 and i != j and int(i) != 1]
 

@@ -11,3 +11,7 @@
 lt = list(filter(lambda x: pow(x, 0.5).is_integer(), [i for i in range(1, 101)]))
 # 输出函数,sep 代表中间字符间以什么分割,查看源码得知
 print(lt, len(lt), sep='\n')
+
+# a = list(filter(lambda x: pow(x, 0.5).is_integer(), range(1, 101)))
+# print(a)
+# print(a)
