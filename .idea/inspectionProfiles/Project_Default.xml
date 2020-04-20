@@ -23,6 +23,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="dict.get" />
+          <option value="str.__setitem__" />
         </list>
       </option>
     </inspection_tool>
