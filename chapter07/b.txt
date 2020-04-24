@@ -1,0 +1,1 @@
+Open an English text file, write a program to read its contents,and change the uppercase letters into lowercase letters,and lowercase letters into uppercase letters.

@@ -24,6 +24,7 @@
         <list>
           <option value="dict.get" />
           <option value="str.__setitem__" />
+          <option value="str.append" />
         </list>
       </option>
     </inspection_tool>
