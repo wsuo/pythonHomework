@@ -28,9 +28,9 @@ table = [i.strip('\n').split(',') for i in f1.readlines()]
 table[0].append('排名')
 
 # 由于 sort 函数和 extend 函数都是没有返回值的
-# 所以我们必须事先存储待处理变量
+# 所以我们必须事先存储待处理变量，如果题目中没给总分可以 sum([int(j) for j in x[1:]])
 sortList = table[1:]
-sortList.sort(key=lambda x: sum([int(j) for j in x[1:]]), reverse=True)
+sortList.sort(key=lambda x: x[-1], reverse=True)
 
 # 增加排名数字
 for i in range(len(sortList)):
