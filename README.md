@@ -7,7 +7,7 @@
 
 - chapter02 用到的库 turtle
 - chapter04 用到的库 random
-- chapter07 用到的库 wordcloud | jieba | imageio
+- chapter07 用到的库 wordcloud | jieba | imageio | json
 - experiment01 用到的库 jieba 
 
 > school: lsu
