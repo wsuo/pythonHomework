@@ -8,6 +8,7 @@
 - chapter02 用到的库 turtle
 - chapter04 用到的库 random
 - chapter07 用到的库 wordcloud | jieba | imageio | json
+- chapter08 用到的库 numpy
 - experiment01 用到的库 jieba 
 
 > school: lsu
