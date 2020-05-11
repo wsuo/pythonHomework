@@ -9,6 +9,8 @@
 - chapter04 用到的库 random
 - chapter07 用到的库 wordcloud | jieba | imageio | json
 - chapter08 用到的库 numpy | bs4 | pandas | requests
+- chapter09 用到的库 lxml 
 - experiment01 用到的库 jieba 
+
 
 > school: lsu
